@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="L'association des bitcoiners de l'Anjou">
+<meta name="author" content="Anjou Bitcoin">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
+<meta property="og:image" content="{{ site.url }}/{{ page.image }}"/>
+<meta property="og:title" content="{{ page.title }}"/>
+<meta property="og:url" content="{{site.url}}{{page.url}}"/>
+<meta property="og:site_name" content="Anjou Bitcoin"/>
+<meta property="og:description" content="{{ page.description }}"/>
+
+<link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.ico">    
+<title>{{ page.title }}</title>
+{% seo %}
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+<link href="{{ site.baseurl }}/assets/css/fontawesome.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i" rel="stylesheet">
+<link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
+<link href="{{ site.baseurl }}/assets/css/custom.css" rel="stylesheet">
+<link href="{{ site.baseurl }}/assets/css/material.indigo-pink.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="{{ site.baseurl }}/assets/css/sharingbuttons.css" rel="stylesheet">
+<link href="https://sibforms.com/forms/end-form/build/sib-styles.css" rel="stylesheet">
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '{{site.google_analytics}}', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</head>
+        
+{% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
+<body class="{{ layout }}">
+
+<header class="navbar navbar-toggleable-md navbar-light bg-white fixed-top mediumnavigation">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsWow" aria-controls="navbarsWow" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="container">
+
+        <!-- Logo -->
+        <a class="navbar-brand" href="{{ site.baseurl }}/">
+        <img  style="width: 25%;" src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+        </a>
+  
+        <!-- Menu -->
+        <div class="collapse navbar-collapse" id="navbarsWow">
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item">                
+                <a class="nav-link" href="{{ site.baseurl }}/index.html">Accueil</a>
+                </li>
+
+            <!-- Menu déroulant
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="{{ site.baseurl }}/index.html#articles" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Articles</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="{{ site.baseurl }}/index.html#articles">Tous les articles</a>
+                        <a class="dropdown-item" href="{{ site.baseurl }}/categorie/actualites">Actualités</a> 
+                        <a class="dropdown-item" href="{{ site.baseurl }}/categorie/meetups">Meetups</a>
+                        </div>
+                </li>
+            -->
+
+                <li class="nav-item">                
+                    <a class="nav-link" href="{{ site.baseurl }}/#meetups">Meetups</a>
+                </li>
+
+                <li class="nav-item">                
+                    <a class="nav-link" href="{{ site.baseurl }}/association">L'association</a>
+                </li> 
+                
+                <li class="nav-item">                
+                    <a class="nav-link" href="{{ site.baseurl }}/contact">Contact</a>
+                </li> 
+            </ul>          
+        </div>
+    </div>
+</header>    
+
+
+<div class="site-content">
+    <!-- Contenu -->
+    <div class="container">
+        <div class="mainheading" style="display:none;">
+            <h1 class="sitetitle">{{ site.name }}</h1>
+            <p class="lead">
+                {{ site.description }}
+            </p>
+        </div>
+
+        <div class="main-content">
+            {{ content }}
+        </div>
+    </div>
+
+    <!-- Pied de page -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                <div class="footer-widget">
+                <a href="https://twitter.com/"><img class="img-networks" src="{{ site.baseurl }}/assets/images/networks/twitter_white.png"></img></a>           
+                <a href="https://www.linkedin.com/"><img class="img-networks" src="{{ site.baseurl }}/assets/images/networks/linkedin_white.png"></img></a>
+                <a href="{{ site.baseurl }}/feed.xml"><img class="img-networks" src="{{ site.baseurl }}/assets/images/networks/rss_white.png"></img></a>
+                <ul><li></li></ul>
+                <a href="https://www.facebook.com/"><img class="img-networks" src="{{ site.baseurl }}/assets/images/networks/facebook_white.png"></img></a>           
+                <a href="https://t.me/"><img class="img-networks" src="{{ site.baseurl }}/assets/images/networks/telegram_white.png"></img></a>           
+                </div>
+                </div>
+                <div class="col-sm-3">
+                <div class="footer-widget">
+                <h5 class="title">Informations</h5>
+                <ul>
+                    <li><a href="{{ site.baseurl }}/mentions-legales">Mentions légales</a></li>
+                    <li><a href="{{ site.baseurl }}/confidentialite">Politique de confidentialité</a></li>
+                    <li><a href="{{ site.baseurl }}/licence">Licence</a></li>
+                </ul>
+                </div>
+                </div>
+
+                <div class="col-sm-3">
+                <div class="footer-widget">
+                <h5 class="title">Association</h5>
+                <ul>
+                    <li><a href="{{ site.baseurl }}/association">A propos de nous</a></li>
+                    <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
+                </ul>
+                </div>
+                </div>
+
+                <div class="col-sm-3">
+                <div class="footer-widget textwidget">
+                    <h5 class="title">Don't trust, verify</h5>
+                    <p>Le code source de ce site est disponible publiquement. Vous pouvez le consulter sur notre <a href="https://github.com/">projet Github</a>.</p>                 
+                </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p class="pull-left">
+                Copyright © {{ site.time | date: "%Y" }} {{ site.name }}</a>
+                </p>        
+            </div>
+        </div>
+    </footer>
+</div>
+    
+<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/tether.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/ie10-viewport-bug-workaround.js"></script>
+<script type='text/javascript' src='{{ site.baseurl }}/assets/js/masonry.pkgd.min.js'></script>
+<script src="{{ site.baseurl }}/assets/js/theme.js"></script>  
+<script src="{{ site.baseurl }}/assets/js/material.min.js"></script>
+<script src="https://sibforms.com/forms/end-form/build/main.js"></script>
+</body>
+    
+</html>

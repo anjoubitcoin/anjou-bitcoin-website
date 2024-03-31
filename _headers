@@ -1,0 +1,9 @@
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  Content-Security-Policy: default-src 'self' 'unsafe-inline' 'unsafe-eval' s3.tradingview.com fonts.gstatic.com www.gstatic.com maxcdn.bootstrapcdn.com s.tradingview.com www.gravatar.com *.youtube.com www.google.com fonts.googleapis.com storage.googleapis.com *.google-analytics.com platform.twitter.com *.twimg.com syndication.twitter.com sibforms.com *.sibforms.com *.sendinblue.com;
+  X-WebKit-CSP: default-src *
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  Feature-Policy: ambient-light-sensor 'none'; autoplay 'none'; accelerometer 'none'; camera 'none'; display-capture 'none'; document-domain 'none'; encrypted-media 'none'; execution-while-not-rendered 'none'; execution-while-out-of-viewport 'none'; fullscreen 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'none'; picture-in-picture 'none'; usb 'none'; vr 'none'
+  Cache-Control: max-age=3600

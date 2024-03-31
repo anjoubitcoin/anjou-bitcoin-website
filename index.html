@@ -1,0 +1,83 @@
+---
+layout: default
+title: "Anjou Bitcoin"
+description: "L'association des bitcoiners angevins"
+image: "assets/images/logo.png"
+---
+
+<section class="intro full-width">
+    <div class="wrapintro">
+        <h1><img  style="width: 25%;" src="{{ site.baseurl }}/assets/images/logo-title.png" alt="{{ site.name }}"></h1>
+    </div>
+</section>
+
+<!-- Section posts mis en avant -->
+{% assign hasFeatured = false %}
+{% for post in site.posts %}
+    {% if post.featured == true %}
+        {% assign hasFeatured = true %}
+    {% endif %}
+{% endfor %}
+
+{% if hasFeatured %}
+<section class="featured-posts">
+    <div class="section-title">
+        <h2><span>Présentation</span></h2>
+    </div>
+
+Accedat huc suavitas quaedam oportet sermonum atque morum, haudquaquam mediocre condimentum amicitiae. Tristitia autem et in omni re severitas habet illa quidem gravitatem, sed amicitia remissior esse debet et liberior et dulcior et ad omnem comitatem facilitatemque proclivior.
+
+Accedat huc suavitas quaedam oportet sermonum atque morum, haudquaquam mediocre condimentum amicitiae. Tristitia autem et in omni re severitas habet illa quidem gravitatem, sed amicitia remissior esse debet et liberior et dulcior et ad omnem comitatem facilitatemque proclivior.
+
+Accedat huc suavitas quaedam oportet sermonum atque morum, haudquaquam mediocre condimentum amicitiae. Tristitia autem et in omni re severitas habet illa quidem gravitatem, sed amicitia remissior esse debet et liberior et dulcior et ad omnem comitatem facilitatemque proclivior.
+
+    <div class="section-title">
+        <h2><span>Actualité</span></h2>
+    </div>
+
+    <div class="row listfeaturedtag">
+
+    {% for post in site.posts %}
+        {% if post.featured == true %}
+            {% include featuredbox.html %}
+        {% endif %}
+    {% endfor %}
+    </div>
+</section>
+{% endif %}
+
+
+{% if paginator.previous_page %}
+{% if paginator.previous_page > 0 %}
+<div id="jumptopageof"></div>
+{% endif %}
+{% endif %}    
+
+<!-- Section articles récents -->
+<section class="recent-posts row">
+
+    <div class="col-sm-4">
+        {% include sidebar.html %}
+    </div>
+
+    <div class="col-sm-8">
+
+        <div class="section-title">
+            <h2 id="meetups"><span>Les Meetups</span></h2>    
+        </div>
+
+        <div class="masonrygrid row listrecent">
+            {% for post in paginator.posts %}
+            {% unless post.featured == true %}
+                {% include postbox.html %}
+            {% endunless %}
+            {% endfor %}
+        </div> 
+
+        <div class="bottompagination">
+            <span class="navigation" role="navigation">
+                {% include pagination.html %}
+            </span>
+        </div>
+    </div>
+</section>

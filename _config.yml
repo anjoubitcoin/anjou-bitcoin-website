@@ -1,0 +1,49 @@
+# Site
+name: "Anjou Bitcoin"
+title: "L'association des bitcoiners angevins"
+description: "Notre objectif est de partager, éduquer et échanger autour de Bitcoin et son écosystème. Nous ne proposons pas de conseils en investissement."
+meta_description: "Notre objectif est de partager, éduquer et échanger autour de Bitcoin et son écosystème. Nous ne proposons pas de conseils en investissement."
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+paginate: 10
+baseurl: ''
+true_url: 'https://anjoubitcoin.fr'
+email: 'contact@anjoubitcoin.fr'
+google_analytics: 'XXX'
+
+# Authors
+authors:
+  anjou-bitcoin:
+    name: Anjou Bitcoin
+    display_name: Anjou Bitcoin
+    gravatar: c52e1a886ae6f543bef70d1f1ba6a450
+    email: contact@anjoubitcoin.fr
+    web: https://anjoubitcoin.fr/association
+    twitter: https://twitter.com/
+    description: ""
+
+# Plugins
+url: "https://anjoubitcoin.fr"
+plugins: 
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+        
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/categorie/:name/'
+    
+# Other
+markdown: kramdown
+highlighter: rouge
+
+# Server config
+include:
+  - _headers
+

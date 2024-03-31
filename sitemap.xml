@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://anjoubitcoin.fr/</loc>
+  <lastmod>2024-02-01T11:05:55+00:00</lastmod>
+</url>
+<url>
+  <loc>https://anjoubitcoin.fr/index.html</loc>
+  <lastmod>2024-02-01T11:05:55+00:00</lastmod>
+</url>
+<url>
+  <loc>https://anjoubitcoin.fr/association</loc>
+  <lastmod>2024-02-01T11:05:55+00:00</lastmod>
+</url>
+<url>
+  <loc>https://anjoubitcoin.fr/contact</loc>
+  <lastmod>2024-02-01T11:05:55+00:00</lastmod>
+</url>
+<url>
+  <loc>https://anjoubitcoin.fr/mentions-legales</loc>
+  <lastmod>2024-02-01T11:05:55+00:00</lastmod>
+</url>
+<url>
+  <loc>https://anjoubitcoin.fr/licence</loc>
+  <lastmod>2024-02-01T11:05:55+00:00</lastmod>
+</url>
+<url>
+  <loc>https://anjoubitcoin.fr/confidentialite</loc>
+  <lastmod>2024-02-01T11:05:55+00:00</lastmod>
+</url>
+<url>
+  <loc>https://anjoubitcoin.fr/categorie/meetups/</loc>
+  <lastmod>2024-02-01T11:05:55+00:00</lastmod>
+</url>
+<url>
+  <loc>https://anjoubitcoin.fr/feed.xml</loc>
+  <lastmod>2024-02-01T11:05:55+00:00</lastmod>
+</url>
+<url>
+    <loc>https://anjoubitcoin.fr/meetups/2023/12/01/angers-bitcoin-meetup.html</loc>
+    <news:news> 
+        <news:publication>
+            <news:name>Angers Bitcoin Meetup - Décembre 2023</news:name> 
+            <news:language>fr</news:language>
+        </news:publication> 
+        <news:publication_date>2023-12-01</news:publication_date> 
+        <news:title>Angers Bitcoin Meetup - Décembre 2023</news:title> 
+    </news:news> 
+</url>
+<url>
+    <loc>https://anjoubitcoin.fr/meetups/2024/01/01/angers-bitcoin-meetup.html</loc>
+    <news:news> 
+        <news:publication>
+            <news:name>Angers Bitcoin Meetup - Janvier 2024</news:name> 
+            <news:language>fr</news:language>
+        </news:publication> 
+        <news:publication_date>2024-01-01</news:publication_date> 
+        <news:title>Angers Bitcoin Meetup - Janvier 2024</news:title> 
+    </news:news> 
+</url>
+<url>
+    <loc>https://anjoubitcoin.fr/meetups/2024/02/01/angers-bitcoin-meetup.html</loc>
+    <news:news> 
+        <news:publication>
+            <news:name>Angers Bitcoin Meetup - Février 2024</news:name> 
+            <news:language>fr</news:language>
+        </news:publication> 
+        <news:publication_date>2024-02-01</news:publication_date> 
+        <news:title>Angers Bitcoin Meetup - Février 2024</news:title> 
+    </news:news> 
+</url>
+</urlset>
