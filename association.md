@@ -10,7 +10,7 @@ image: "assets/images/logo.png"
 **Bitcoin** est une monnaie numérique permettant de faire des paiements sans passer par une institution financière ou tout autre tiers de confiance. 
 De par sa conception innovante, il bouleverse petit à petit de nombreux domaines (technologie, économie, finance, écologie, géopolitique, etc.).
 
-**Anjou Bitcoin** est la première association d'Angers et ses alentours dediée à Bitcoin. Son but est de **favoriser l'éducation, le partage et l'adoption de Bitcoin** dans notre belle région angevine. 
+**Anjou Bitcoin** est la première association d'Angers et ses alentours dédiée à Bitcoin. Son but est de **favoriser l'éducation, le partage et l'adoption de Bitcoin** dans notre belle région angevine. 
 
 A travers des **évenements mensuels**, tous les **premiers mercredi du mois**, nous échangeons sur les différentes thématiques autour de Bitcoin dans un **esprit ouvert et convivial**. 
 

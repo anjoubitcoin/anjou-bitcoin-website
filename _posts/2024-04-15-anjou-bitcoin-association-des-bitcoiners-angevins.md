@@ -11,7 +11,7 @@ featured: true
 
 #### Une nouvelle association
 
-Nous avons le plaisir de vous annoncer la **création de la première association d’Angers et ses alentours** dediée à Bitcoin. 
+Nous avons le plaisir de vous annoncer la **création de la première association d’Angers et ses alentours** dédiée à Bitcoin. 
 
 **Bitcoin** est une monnaie numérique permettant de faire des paiements sans passer par une institution financière ou tout autre tiers de confiance. De par sa conception innovante, il **bouleverse petit à petit de nombreux domaines** (technologie, économie, finance, écologie, géopolitique, etc.).
 
@@ -32,11 +32,18 @@ Voici les prinipales missions de l'association :
 
 #### Nous soutenir
 
-Pour soutenir notre initiative, nous vous donnons rendez-vous à l'un de nos prochains **meetup**, les **premiers mercredi du moi**s. Simplement curieux, débutant ou expert ? Tout le monde est bienvenue. 
+Pour soutenir notre initiative, nous vous donnons rendez-vous lors de nos prochains **meetups**, les **premiers mercredi du mois** dans les locaux de [WeForge](https://www.weforge.fr/). Simplement curieux, débutant ou expert ? **Tout le monde est bienvenue**. 
 
-Pour allez plus loin, vous pouvez également devenir membre de l'association en nous [contactant via notre formulaire](../../../../contact).
+Vous êtes **commerçant** et interressé par Bitcoin ? Nous recherchons des professionnels prêts à **accepter le Bitcoin comme moyen de paiement**. Nous recherchons également des **lieux de restauration / bars** pour nous recevoir lors de nos meetups.
 
-Retrouvez-nous également sur : 
-- Notre [canal Telegram](https://t.me/AngersBitcoinMeetup)
-- Notre [compte Twitter](https://twitter.com/AngersBitcoin) 
-- Notre [page Linkedin](https://fr.linkedin.com/company/anjou-bitcoin?trk=ppro_cprof)
+Pour allez plus loin, vous pouvez également **devenir membre de l'association** en nous [contactant via notre formulaire](../../../../contact).
+
+Pour être tenu informé des prochains meetups et de leurs modalités, suivez nous sur nos réseaux : 
+- Notre canal [Telegram](https://t.me/AngersBitcoinMeetup)
+- Notre compte [Twitter](https://twitter.com/AngersBitcoin) 
+- Notre page [Linkedin](https://fr.linkedin.com/company/anjou-bitcoin?trk=ppro_cprof)    
+- Notre page [Facebook](https://www.facebook.com/share/48Yf2vFZHY8UYYjC/?mibextid=LQQJ4d)    
+
+<div style="text-align:center">
+    <a class='btn btn-primary' style="box-shadow: none" href="https://sync.infomaniak.com/calendars/AB17877/3bca10b3-4f59-4f76-a4dc-58a9e39ffc91?export">Ajouter au calendrier</a>
+</div>

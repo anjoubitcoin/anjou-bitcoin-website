@@ -576,8 +576,11 @@ a.btn {color:#fff;}
     font-size:15px;
 }
 .btn-primary {
-    background-color: #675bff;
-    border-color: #675bff;
+    background-color: rgba(247, 147, 26, 1);
+    border-color: rgba(247, 147, 26, 1);
+},
+.btn-primary:hover {
+    color: rgba(247, 147, 26, 1);
 }
 .btn.follow {
 	border-color:#6FD350;
