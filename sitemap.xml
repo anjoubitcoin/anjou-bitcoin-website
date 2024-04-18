@@ -217,8 +217,8 @@
         <news:title>21 raisons d'utiliser Bitcoin</news:title> 
     </news:news> 
 </url>
-<!--<url>
-    <loc>https://anjoubitcoin.fr/meetups/2024/04/15/angers-bitcoin-meetup</loc>
+<url>
+    <loc>https://anjoubitcoin.fr/meetups/2024/04/18/angers-bitcoin-meetup</loc>
     <news:news> 
         <news:publication>
             <news:name>Angers Bitcoin Meetup - Mercredi 1er mai 2024</news:name> 
@@ -227,5 +227,5 @@
         <news:publication_date>2024-04-15</news:publication_date> 
         <news:title>Angers Bitcoin Meetup - Mercredi 1er mai 2024</news:title> 
     </news:news> 
-</url>-->
+</url>
 </urlset>
