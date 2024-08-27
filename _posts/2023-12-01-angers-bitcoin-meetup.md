@@ -4,7 +4,7 @@ title:  "Angers Bitcoin Meetup - Décembre 2023"
 description:  "Angers Bitcoin Meetup - Décembre 2023"
 author: anjou-bitcoin
 categories: [ meetups ]
-image: assets/images/articles/angers-bitcoin-meetup-12-2023/1.jpg
+image: assets/images/articles/angers-bitcoin-meetup-2023-12/1.jpg
 image_credential: ""
 featured: false
 ---

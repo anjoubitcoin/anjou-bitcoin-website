@@ -6,7 +6,7 @@ author: anjou-bitcoin
 categories: [ actualites ]
 image: assets/images/articles/21-raisons-d-utiliser-bitcoin/1.jpg
 image_credential: ""
-featured: true
+featured: false
 ---
 
 À partager sans modération

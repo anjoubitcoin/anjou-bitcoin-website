@@ -4,7 +4,7 @@ title:  "Angers Bitcoin Meetup - Mai 2023"
 description:  "Angers Bitcoin Meetup - Mai 2023"
 author: anjou-bitcoin
 categories: [ meetups ]
-image: assets/images/articles/angers-bitcoin-meetup-05-2023/1.jpg
+image: assets/images/articles/angers-bitcoin-meetup-2023-05/1.jpg
 image_credential: ""
 featured: false
 ---

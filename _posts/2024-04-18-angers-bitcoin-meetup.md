@@ -4,7 +4,7 @@ title:  "Angers Bitcoin Meetup - Mercredi 1er mai 2024"
 description:  "Angers Bitcoin Meetup - Mercredi 1er mai 2024"
 author: anjou-bitcoin
 categories: [ meetups ]
-image: assets/images/articles/angers-bitcoin-meetup-05-2024/1.jpg
+image: assets/images/articles/angers-bitcoin-meetup-2024-05/1.jpg
 image_credential: ""
 featured: false
 ---

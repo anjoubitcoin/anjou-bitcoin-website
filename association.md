@@ -25,7 +25,7 @@ A travers des **évenements mensuels**, tous les **premiers mercredi du mois**, 
 
 #### Nous soutenir
 
-Pour soutenir notre initiative, nous vous donnons rendez-vous à l'un de nos prochains **meetup**, les **premiers mercredi du moi**s. Simplement curieux, débutant ou expert ? Tout le monde est bienvenue. 
+Pour soutenir notre initiative, nous vous donnons rendez-vous à l'un de nos prochains **meetup**, les **premiers mercredi du mois**. Simplement curieux, débutant ou expert ? Tout le monde est bienvenue. 
 
 Pour allez plus loin, vous pouvez également devenir membre de l'association en nous [contactant via notre formulaire](../../../../contact).
 
@@ -36,5 +36,5 @@ Retrouvez-nous également sur :
 
 
 {:refdef: style="text-align: center;"}
-![]({{ site.baseurl }}/assets/images/logo-large.png){:height="250px" width="250px"}
+![]({{ site.baseurl }}/assets/documents/flyer_A6.png){:height="500px" width="500px"} 
 {: refdef}
