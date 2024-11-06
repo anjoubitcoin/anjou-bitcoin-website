@@ -9,7 +9,7 @@ image_credential: ""
 featured: true
 ---
 
-Le rendez-vous des bitcoiners angevins de septembre
+Le rendez-vous des bitcoiners angevins de novembre
 
 Lors de ce meetup, nous discuterons de l'actualité et de l'impact des élections américaines sur Bitcoin.
 
