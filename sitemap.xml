@@ -279,4 +279,26 @@
         <news:title>Du coquillage au Bitcoin : Conférence le 11 septembre 2024 à Angers</news:title> 
     </news:news> 
 </url>
+<url>
+    <loc>https://anjoubitcoin.fr/meetups/2024/10/01/angers-bitcoin-meetup.html</loc>
+    <news:news> 
+        <news:publication>
+            <news:name>Angers Bitcoin Meetup - Mercredi 02 Octobre 2024</news:name> 
+            <news:language>fr</news:language>
+        </news:publication> 
+        <news:publication_date>2024-10-01</news:publication_date> 
+        <news:title>Angers Bitcoin Meetup - Mercredi 02 Octobre 2024</news:title> 
+    </news:news> 
+</url>
+<url>
+    <loc>https://anjoubitcoin.fr/meetups/2024/11/06/angers-bitcoin-meetup.html</loc>
+    <news:news> 
+        <news:publication>
+            <news:name>Angers Bitcoin Meetup - Mercredi 06 Novembre 2024</news:name> 
+            <news:language>fr</news:language>
+        </news:publication> 
+        <news:publication_date>2024-11-02</news:publication_date> 
+        <news:title>Angers Bitcoin Meetup - Mercredi 06 Novembre 2024</news:title> 
+    </news:news> 
+</url>
 </urlset>
