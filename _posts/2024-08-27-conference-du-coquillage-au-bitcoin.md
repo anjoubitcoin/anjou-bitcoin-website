@@ -6,7 +6,7 @@ author: anjou-bitcoin
 categories: [ actualites ]
 image: assets/images/articles/du-coquillage-au-bitcoin-2024-09/1.jpg
 image_credential: ""
-featured: true
+featured: false
 ---
 
 **Percez les mystères de la monnaie**
