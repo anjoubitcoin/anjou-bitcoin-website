@@ -6,7 +6,7 @@ author: anjou-bitcoin
 categories: [ actualites ]
 image: assets/images/articles/anjou-bitcoin-association-des-bitcoiners-angevins/1.jpg
 image_credential: ""
-featured: true
+featured: false
 ---
 
 #### Une nouvelle association
