@@ -334,4 +334,26 @@
         <news:title>Le Colisée devient le premier commerce à accepter Bitcoin à Angers</news:title> 
     </news:news> 
 </url>
+<url>
+    <loc>https://anjoubitcoin.fr/meetups/2025/01/01/angers-bitcoin-meetup.html</loc>
+    <news:news> 
+        <news:publication>
+            <news:name>Angers Bitcoin Meetup - Mercredi 08 Janvier 2025</news:name> 
+            <news:language>fr</news:language>
+        </news:publication> 
+        <news:publication_date>2025-01-01</news:publication_date> 
+        <news:title>Angers Bitcoin Meetup - Mercredi 08 Janvier 2025</news:title> 
+    </news:news> 
+</url>
+<url>
+    <loc>https://anjoubitcoin.fr/meetups/2025/01/27/angers-bitcoin-meetup.html</loc>
+    <news:news> 
+        <news:publication>
+            <news:name>Angers Bitcoin Meetup - Mercredi 05 février 2025 - Conférence de Nicolas Cantu</news:name> 
+            <news:language>fr</news:language>
+        </news:publication> 
+        <news:publication_date>2025-01-27</news:publication_date> 
+        <news:title>Angers Bitcoin Meetup - Mercredi 05 février 2025 - Conférence de Nicolas Cantu</news:title> 
+    </news:news> 
+</url>
 </urlset>

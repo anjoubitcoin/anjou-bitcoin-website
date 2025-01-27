@@ -6,7 +6,7 @@ author: anjou-bitcoin
 categories: [ actualites ]
 image: assets/images/articles/accepter-bitcoin-dans-son-commerce-en-quelques-minutes/1.jpg
 image_credential: ""
-featured: true
+featured: false
 ---
 
 **Pourquoi ne pas accepter Bitcoin comme moyen de paiement ?** 
