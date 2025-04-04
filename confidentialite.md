@@ -5,7 +5,7 @@ description: "Politique de confidentialité"
 image: "assets/images/logo.png"
 ---
 
-Dernière mise à jour : 7 avril 2024
+Dernière mise à jour : 4 avril 2025
 
 L'association Anjou Bitcoin attache une grande importance à la protection de vos données personnelles. Cette politique de confidentialité décrit comment nous collectons, utilisons et protégeons vos informations lorsque vous utilisez notre site web.
 
