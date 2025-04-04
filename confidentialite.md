@@ -41,6 +41,10 @@ Vous avez le droit d'accéder à vos données personnelles, de les rectifier, de
 
 Nous nous réservons le droit de modifier cette politique de confidentialité à tout moment. Toute modification sera publiée sur cette page avec une mise à jour de la date de révision.
 
+<h4>Newsletter</h4>
+
+    <p>Nous utilisons <a href="https://brevo.com/">Brevo</a> en tant que service pour gérer notre mailing list. En vous inscrivant à notre mailing list, vous acceptez que votre adresse e-mail soit transmise à <a href="https://brevo.com/">Brevo</a>.</p>
+
 **Contact**
 
 Si vous avez des questions ou des préoccupations concernant notre politique de confidentialité, veuillez nous contacter à l'adresse suivante : asso@anjoubitcoin.fr
