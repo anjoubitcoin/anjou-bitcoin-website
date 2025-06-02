@@ -11,7 +11,7 @@ featured: true
 
 Le rendez-vous des bitcoiners angevins de juin
 
-À cette occasion nous décrypterons ensemble le mystère derrière les UTXO 👀 Cet évenement est ouvert à tous, quelque soit le profil et le niveau de connaissance. 
+À cette occasion nous décrypterons ensemble le mystère derrière les UTXO 👀 Cet évènement est ouvert à tous, quelque soit le profil et le niveau de connaissance. 
 
 Nous vous donnons rendez-vous dans les locaux de [WeForge](https://www.weforge.fr/) à 19h00, 25 rue Lenepveu à Angers.
 
