@@ -6,7 +6,7 @@ author: anjou-bitcoin
 categories: [ actualites ]
 image: assets/images/articles/le-colisee-devient-le-premier-commerce-a-accepter-bitcoin-a-angers/1.jpg
 image_credential: ""
-featured: true
+featured: false
 ---
 
 **Une première angevine** 
