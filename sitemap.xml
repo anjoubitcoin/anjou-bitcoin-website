@@ -400,4 +400,37 @@
         <news:title>Angers Bitcoin Meetup - Mercredi 4 juin 2025</news:title> 
     </news:news> 
 </url>
+<url>
+    <loc>https://anjoubitcoin.fr/meetups/2025/07/02/angers-bitcoin-meetup.html</loc>
+    <news:news> 
+        <news:publication>
+            <news:name>Angers Bitcoin Meetup - Mercredi 2 juillet 2025</news:name> 
+            <news:language>fr</news:language>
+        </news:publication> 
+        <news:publication_date>2025-07-02</news:publication_date> 
+        <news:title>Angers Bitcoin Meetup - Mercredi 2 juillet 2025</news:title> 
+    </news:news> 
+</url>
+<url>
+    <loc>https://anjoubitcoin.fr/meetups/2025/08/06/angers-bitcoin-meetup.html</loc>
+    <news:news> 
+        <news:publication>
+            <news:name>Angers Bitcoin Meetup - Mercredi 6 août 2025</news:name> 
+            <news:language>fr</news:language>
+        </news:publication> 
+        <news:publication_date>2025-08-06</news:publication_date> 
+        <news:title>Angers Bitcoin Meetup - Mercredi 6 août 2025</news:title> 
+    </news:news> 
+</url>
+<url>
+    <loc>https://anjoubitcoin.fr/meetups/2025/07/03/angers-bitcoin-meetup.html</loc>
+    <news:news> 
+        <news:publication>
+            <news:name>Angers Bitcoin Meetup - Mercredi 3 septembre 2025</news:name> 
+            <news:language>fr</news:language>
+        </news:publication> 
+        <news:publication_date>2025-08-29</news:publication_date> 
+        <news:title>Angers Bitcoin Meetup - Mercredi 3 septembre 2025</news:title> 
+    </news:news> 
+</url>
 </urlset>
