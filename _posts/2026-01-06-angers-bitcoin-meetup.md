@@ -1,7 +1,7 @@
 ---
 layout: post-left-sidebar
-title:  "Angers Bitcoin Meetup - Mercredi 6 janvier 2026"
-description:  "Angers Bitcoin Meetup - Mercredi 6 janvier 2026"
+title:  "Angers Bitcoin Meetup - Mercredi 7 janvier 2026"
+description:  "Angers Bitcoin Meetup - Mercredi 7 janvier 2026"
 author: anjou-bitcoin
 categories: [ meetups ]
 image: assets/images/articles/angers-bitcoin-meetup-2026-01/1.png
