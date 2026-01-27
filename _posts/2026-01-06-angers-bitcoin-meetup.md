@@ -6,7 +6,7 @@ author: anjou-bitcoin
 categories: [ meetups ]
 image: assets/images/articles/angers-bitcoin-meetup-2026-01/1.png
 image_credential: ""
-featured: true
+featured: false
 ---
 
 Le rendez-vous des bitcoiners angevins de janvier
