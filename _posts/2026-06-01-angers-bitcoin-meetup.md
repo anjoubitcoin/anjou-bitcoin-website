@@ -1,20 +1,20 @@
 ---
 layout: post-left-sidebar
-title:  "Angers Bitcoin Meetup - Mercredi 6 mai 2026"
-description:  "Angers Bitcoin Meetup - Mercredi 6 mai 2026"
+title:  "Angers Bitcoin Meetup - Mercredi 3 juin 2026"
+description:  "Angers Bitcoin Meetup - Mercredi 3 juin 2026"
 author: anjou-bitcoin
 categories: [ meetups ]
-image: assets/images/articles/angers-bitcoin-meetup-2026-05/1.png
+image: assets/images/articles/angers-bitcoin-meetup-2026-06/1.jpg
 image_credential: ""
 featured: false
 ---
 
-Le rendez-vous des bitcoiners angevins de mai
+Le rendez-vous des bitcoiners angevins de juin
 
 Nous vous donnons rendez-vous dans les locaux de [WeForge](https://www.weforge.fr/) à 19h00, 25 rue Lenepveu à Angers !
 
 Au programme : 
-- Droit à l'anonymat vs collecte des données : où s'arrête notre liberté individuelle ?
+- A quoi ressemblera Bitcoin en 2035 ? Prospective et débats
 - Revue d'actualité
 - Discussions libres et retours d'expérience
 

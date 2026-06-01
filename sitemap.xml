@@ -521,4 +521,15 @@
         <news:title>Angers Bitcoin Meetup - Mercredi 6 mai 2026</news:title> 
     </news:news> 
 </url>
+<url>
+    <loc>https://anjoubitcoin.fr/meetups/2026/06/01/angers-bitcoin-meetup.html</loc>
+    <news:news> 
+        <news:publication>
+            <news:name>Angers Bitcoin Meetup - Mercredi 3 juin 2026</news:name> 
+            <news:language>fr</news:language>
+        </news:publication> 
+        <news:publication_date>2026-06-03</news:publication_date> 
+        <news:title>Angers Bitcoin Meetup - Mercredi 3 juin 2026</news:title> 
+    </news:news> 
+</url>
 </urlset>
