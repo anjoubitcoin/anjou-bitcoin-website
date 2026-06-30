@@ -8,6 +8,8 @@ ruby RUBY_VERSION
 #     bundle exec jekyll serve
 #
 
+gem 'jekyll', '~> 4.4'
+
 # If you have any plugins, put them here!
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 group :jekyll_plugins do
@@ -17,3 +19,10 @@ group :jekyll_plugins do
     gem 'jekyll-seo-tag'
     gem 'jekyll-archives'
 end
+
+# Gems retirées de la bibliothèque standard de Ruby (3.4+) dont Jekyll a besoin.
+# Sans elles, le build échoue avec « cannot load such file -- csv ».
+gem 'csv'
+gem 'logger'
+gem 'base64'
+gem 'bigdecimal'

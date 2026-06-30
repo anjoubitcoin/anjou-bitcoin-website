@@ -1,0 +1,9 @@
+[build]
+  command = "bundle exec jekyll build"
+  publish = "_site"
+
+[build.environment]
+  # Aligné sur le Gemfile.lock (RUBY VERSION) pour un build déterministe.
+  RUBY_VERSION = "3.3.6"
+  # Build en mode production (active jekyll-feed, sitemap, etc.).
+  JEKYLL_ENV = "production"
