@@ -6,8 +6,6 @@ meta_description: "Favoriser l'éducation, le partage et l'adoption de Bitcoin d
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 paginate: 6
-# Publie les articles datés dans le futur (annonces de meetups à venir).
-future: true
 baseurl: ''
 true_url: 'https://anjoubitcoin.fr'
 email: 'asso@anjoubitcoin.fr'
