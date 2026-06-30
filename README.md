@@ -9,8 +9,18 @@
 
 ## Contribuer
 
-- Développement sur la branche _dev_ 
-- Déploiement sur la branche _master_
+Workflow Git :
+
+- **Développement** sur des branches de _dev_ (une par sujet/correctif).
+- **Pré-production** : on merge sur la branche `release` pour validation.
+- **Déploiement** : on merge `release` sur `main` (branche de production déployée par Netlify).
+
+Prévisualisations Netlify :
+
+- Chaque branche de _dev_ et la branche `release` disposent d'un **déploiement de
+  prévisualisation** Netlify (branch deploys), pour relire le rendu avant de promouvoir
+  vers `main`.
+- Les pull requests génèrent également une **Deploy Preview**.
 
 ## Arborescence du projet
 
