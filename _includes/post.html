@@ -24,7 +24,7 @@
     <!-- Image -->
     {% if page.image %}
     <figure  class="image-info">
-        <img class="featured-image img-fluid" value="TEST" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">
+        <img class="featured-image img-fluid" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">
         <figcaption>{{ page.image_credential }}</figcaption>
     </figure>
     
@@ -98,7 +98,7 @@
         {% if page.author %}				
         <div class="row post-top-meta">
             <div class="col-md-2">
-                <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x" alt="{{ author.display_name }}">
+                <img class="author-thumb" loading="lazy" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x" alt="{{ author.display_name }}">
             </div>
             <div class="col-md-10">
                 <a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a>
