@@ -9,7 +9,6 @@ paginate: 6
 baseurl: ''
 true_url: 'https://anjoubitcoin.fr'
 email: 'asso@anjoubitcoin.fr'
-google_analytics: 'XXX'
 
 # Authors
 authors:
@@ -42,6 +41,10 @@ jekyll-archives:
 # Other
 markdown: kramdown
 highlighter: rouge
+
+# Pas de source maps Sass en production
+sass:
+  sourcemap: never
 
 # Server config
 include:
