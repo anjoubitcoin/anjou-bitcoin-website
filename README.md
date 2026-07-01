@@ -40,4 +40,5 @@ Prévisualisations Netlify :
 - Création d'un fichier dans le repertoire /_posts avec la syntaxe AAAA-MM-JJ-titre.md
 - Rédaction de l'article avec le format Markdown (.md)
 - Ajout des images de l'article dans le répertoire assets/images/articles/{titre article}/
+- Génération des dérivés WebP : `python scripts/generate-webp.py` (Pillow requis)
 - Le sitemap (référencement) est généré automatiquement par le plugin jekyll-sitemap
