@@ -4,7 +4,12 @@
 <div class="col-md-6 grid-item">
 <div class="card">
     <a href="{{ post.url | relative_url}}">
-        {% if post.image %} <img class="img-fluid" loading="lazy" src="{{ site.baseurl }}/{{ post.image }}" alt="{{ post.title }}"> {% endif %}
+        {% if post.image %}{% assign webpbase = post.image | split: "." | first %}
+        <picture>
+            <source type="image/webp" srcset="{{ site.baseurl }}/{{ webpbase }}-600.webp 600w, {{ site.baseurl }}/{{ webpbase }}-1200.webp 1200w" sizes="(max-width: 767px) 100vw, 350px">
+            <img class="img-fluid" loading="lazy" src="{{ site.baseurl }}/{{ post.image }}" alt="{{ post.title }}">
+        </picture>
+        {% endif %}
     </a>
     <div class="card-block">
         <h2 class="card-title"><a href="{{ post.url | relative_url}}">{{ post.title }}</a></h2>

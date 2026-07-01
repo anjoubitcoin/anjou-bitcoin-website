@@ -24,7 +24,11 @@
     <!-- Image -->
     {% if page.image %}
     <figure  class="image-info">
-        <img class="featured-image img-fluid" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">
+        {% assign webpbase = page.image | split: "." | first %}
+        <picture>
+            <source type="image/webp" srcset="{{ site.baseurl }}/{{ webpbase }}-600.webp 600w, {{ site.baseurl }}/{{ webpbase }}-1200.webp 1200w" sizes="(max-width: 767px) 100vw, 720px">
+            <img class="featured-image img-fluid" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">
+        </picture>
         <figcaption>{{ page.image_credential }}</figcaption>
     </figure>
     
