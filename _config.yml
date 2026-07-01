@@ -8,6 +8,7 @@ favicon: 'assets/images/favicon.ico'
 paginate: 6
 baseurl: ''
 true_url: 'https://anjoubitcoin.fr'
+locale: fr_FR
 email: 'asso@anjoubitcoin.fr'
 twitter:
   username: AngersBitcoin
