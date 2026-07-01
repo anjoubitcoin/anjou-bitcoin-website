@@ -1,0 +1,120 @@
+/* =========================================================================
+   Refonte visuelle — Anjou Bitcoin (charte conservée : orange #f7931a, Rubik)
+   Chargé APRÈS les autres CSS pour surcharger le thème historique.
+   ========================================================================= */
+:root{
+  --rd-orange:#f7931a; --rd-orange-d:#e07d05; --rd-orange-dd:#c96f04;
+  --rd-ink:#1b1b1f; --rd-muted:#5b5b63; --rd-line:#ececf0;
+  --rd-soft:#faf6ef; --rd-tg:#229ed9;
+  --rd-radius:16px; --rd-shadow:0 12px 34px rgba(20,20,30,.09);
+}
+body{overflow-x:hidden}
+.rd *{box-sizing:border-box}
+/* pleine largeur : sort du .container Bootstrap tout en recentrant via .wrap */
+.rd{font-family:Rubik,system-ui,Arial,sans-serif;color:var(--rd-ink);line-height:1.55;
+  margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw)}
+.rd img{max-width:100%}
+.rd .wrap{max-width:1140px;margin:0 auto;padding:0 20px}
+.rd .btn{display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:12px 22px;
+  font-weight:600;font-size:15px;border:0;cursor:pointer;transition:.15s;text-decoration:none}
+.rd .btn-orange{background:var(--rd-orange);color:#fff}.rd .btn-orange:hover{background:var(--rd-orange-d);color:#fff}
+.rd .btn-tg{background:var(--rd-tg);color:#fff}.rd .btn-tg:hover{filter:brightness(.94);color:#fff}
+.rd .btn-ghost{background:#fff;color:var(--rd-ink);border:1px solid var(--rd-line)}.rd .btn-ghost:hover{border-color:var(--rd-orange);color:var(--rd-ink)}
+.rd .btn-white{background:#fff;color:var(--rd-orange-dd)}.rd .btn-white:hover{color:var(--rd-orange-dd)}
+
+/* ---- Hero (couleurs de l'affiche : dégradé orange) ---- */
+.rd-hero{background:linear-gradient(135deg,#f7a72f 0%,var(--rd-orange) 45%,var(--rd-orange-dd) 100%);color:#fff;overflow:hidden;position:relative}
+.rd-hero::after{content:"";position:absolute;inset:0;opacity:.10;
+  background:radial-gradient(circle at 18% 22%,#fff 1.5px,transparent 2px) 0 0/38px 38px}
+.rd-hero .wrap{position:relative;display:grid;grid-template-columns:1.15fr .85fr;gap:44px;align-items:center;padding:66px 20px 60px}
+.rd-hero .chip{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.18);
+  border:1px solid rgba(255,255,255,.35);padding:7px 14px;border-radius:999px;font-size:13.5px;font-weight:600}
+.rd-hero h1{font-size:50px;line-height:1.06;font-weight:800;letter-spacing:-.6px;margin:18px 0 14px}
+.rd-hero p.lead{font-size:18.5px;max-width:48ch;margin:0 0 26px;color:rgba(255,255,255,.94)}
+.rd-hero .cta{display:flex;gap:12px;flex-wrap:wrap}
+.rd-card-meetup{background:#fff;color:var(--rd-ink);border-radius:var(--rd-radius);box-shadow:var(--rd-shadow);overflow:hidden}
+.rd-card-meetup img{width:100%;display:block;aspect-ratio:16/9;object-fit:cover}
+.rd-card-meetup .b{padding:16px 20px 20px}
+.rd-card-meetup .d{color:var(--rd-orange-dd);font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:.4px}
+.rd-card-meetup h3{margin:4px 0 4px;font-size:19px}
+.rd-card-meetup small{color:var(--rd-muted)}
+
+/* ---- Sections génériques ---- */
+.rd-sec{padding:64px 0}
+.rd-sec.soft{background:var(--rd-soft)}
+.rd-sec .head{margin-bottom:26px}
+.rd-sec .head h2{font-size:30px;font-weight:800;margin:0}
+.rd-sec .head p{margin:6px 0 0;color:var(--rd-muted);font-size:16px;max-width:70ch}
+.rd-sec .head.center{text-align:center}.rd-sec .head.center p{margin-left:auto;margin-right:auto}
+
+/* ---- « Terrier du lapin » : thèmes variés ---- */
+.rd-rabbit{background:#141418;color:#fff}
+.rd-rabbit h2{color:#fff}.rd-rabbit .head p{color:#b9b9c4}
+.rd-tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:6px}
+.rd-tag{background:rgba(247,147,26,.14);color:#f7b45a;border:1px solid rgba(247,147,26,.35);
+  padding:8px 15px;border-radius:999px;font-weight:600;font-size:14.5px}
+.rd-examples{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.rd-example{background:#1e1e25;border:1px solid #2a2a33;border-radius:12px;padding:12px 16px;font-size:14.5px;color:#e7e7ef}
+.rd-example b{color:#f7b45a;font-weight:600}
+
+/* ---- Bandeau Telegram ---- */
+.rd-tg-band{background:linear-gradient(120deg,#0f2a3d,#12405c);color:#fff}
+.rd-tg-band .wrap{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:38px 20px;flex-wrap:wrap}
+.rd-tg-band h2{font-size:26px;margin:0 0 6px}
+.rd-tg-band p{margin:0;color:#c7dced;max-width:62ch}
+.rd-tg-badge{width:54px;height:54px;border-radius:15px;background:var(--rd-tg);display:grid;place-items:center;flex:0 0 auto}
+.rd-tg-badge svg{width:30px;height:30px;fill:#fff}
+
+/* ---- Grille meetups ---- */
+.rd-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.rd-postcard{background:#fff;border:1px solid var(--rd-line);border-radius:var(--rd-radius);overflow:hidden;
+  display:flex;flex-direction:column;transition:.18s}
+.rd-postcard:hover{transform:translateY(-4px);box-shadow:var(--rd-shadow);border-color:transparent}
+.rd-postcard>a{display:block}
+.rd-postcard img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block}
+.rd-postcard .b{padding:16px 18px 20px;display:flex;flex-direction:column;gap:6px;flex:1}
+.rd-postcard .d{color:var(--rd-orange-dd);font-weight:700;font-size:12.5px;text-transform:uppercase;letter-spacing:.4px}
+.rd-postcard h3{margin:0;font-size:17.5px;line-height:1.28}
+.rd-postcard h3 a{color:var(--rd-ink);text-decoration:none}
+.rd-postcard p{margin:0;color:var(--rd-muted);font-size:14.5px}
+
+/* ---- Valeurs / missions ---- */
+.rd-values{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.rd-vcard{background:#fff;border:1px solid var(--rd-line);border-radius:var(--rd-radius);padding:24px}
+.rd-vcard .ic{width:46px;height:46px;border-radius:12px;background:rgba(247,147,26,.12);color:var(--rd-orange-dd);
+  display:grid;place-items:center;font-size:22px;margin-bottom:12px}
+.rd-vcard h4{margin:0 0 6px;font-size:17px}.rd-vcard p{margin:0;color:var(--rd-muted);font-size:15px}
+.rd-note{margin-top:18px;color:var(--rd-muted);font-size:14px;font-style:italic}
+
+/* ---- Newsletter ---- */
+.rd-news{background:var(--rd-soft);border:1px solid var(--rd-line);border-radius:20px;padding:34px;text-align:center;max-width:720px;margin:0 auto}
+.rd-news h2{margin:0 0 8px;font-size:26px}
+.rd-news p{margin:0 0 18px;color:var(--rd-muted)}
+
+/* ---- À propos ---- */
+.rd-about p{font-size:17px;color:#33333a;max-width:80ch}
+.rd-about strong{color:var(--rd-ink)}
+
+/* ---- Pagination ---- */
+.rd-pag{margin-top:34px;text-align:center}
+
+/* ---- Bouton Telegram dans la barre de nav (surcharge légère) ---- */
+.nav-tg-btn{display:inline-block;background:var(--rd-tg);color:#fff !important;border-radius:999px;
+  padding:8px 16px !important;font-weight:600;margin-left:8px}
+.nav-tg-btn:hover{filter:brightness(.94)}
+
+/* ---- Recommandations dans le footer ---- */
+.footer .rd-reco{list-style:none;padding:0;margin:0}
+.footer .rd-reco li{margin:2px 0}
+
+/* ---- Responsive ---- */
+@media(max-width:900px){
+  .rd-hero .wrap{grid-template-columns:1fr;gap:28px}
+  .rd-hero h1{font-size:38px}
+  .rd-grid,.rd-values{grid-template-columns:1fr 1fr}
+}
+@media(max-width:600px){
+  .rd-hero h1{font-size:31px}
+  .rd-grid,.rd-values{grid-template-columns:1fr}
+  .rd-sec{padding:48px 0}
+}
