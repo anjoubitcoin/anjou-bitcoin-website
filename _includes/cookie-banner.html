@@ -1,0 +1,32 @@
+<!-- Bandeau d'information discret (contenus tiers / cookies) -->
+<div id="cookie-banner" class="cookie-banner" role="region" aria-label="Information sur les cookies" hidden>
+  <span class="cookie-banner__txt">
+    Ce site intègre des contenus tiers (polices, avatars, widget de cours, formulaires)
+    susceptibles de déposer des cookies. En savoir plus dans notre
+    <a href="{{ site.baseurl }}/confidentialite">politique de confidentialité</a>.
+  </span>
+  <button type="button" id="cookie-accept" class="cookie-banner__btn">J'ai compris</button>
+</div>
+
+<style>
+.cookie-banner{position:fixed;left:0;right:0;bottom:0;z-index:1050;background:#2b2b2b;color:#fff;
+  font-size:13px;line-height:1.45;padding:10px 16px;display:flex;gap:12px;align-items:center;
+  justify-content:center;flex-wrap:wrap;box-shadow:0 -2px 8px rgba(0,0,0,.15)}
+.cookie-banner__txt{max-width:760px}
+.cookie-banner a{color:#f7931a;text-decoration:underline}
+.cookie-banner__btn{background:#f7931a;color:#fff;border:0;border-radius:6px;padding:6px 16px;
+  font-weight:bold;cursor:pointer;white-space:nowrap}
+</style>
+
+<script>
+(function(){
+  var key='ab_cookie_ok';
+  try{ if(localStorage.getItem(key)){ return; } }catch(e){}
+  var b=document.getElementById('cookie-banner'); if(!b){ return; }
+  b.hidden=false;
+  var btn=document.getElementById('cookie-accept');
+  if(btn){ btn.addEventListener('click',function(){
+    b.hidden=true; try{ localStorage.setItem(key,'1'); }catch(e){}
+  }); }
+})();
+</script>

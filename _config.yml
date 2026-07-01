@@ -9,6 +9,8 @@ paginate: 6
 baseurl: ''
 true_url: 'https://anjoubitcoin.fr'
 email: 'asso@anjoubitcoin.fr'
+twitter:
+  username: AngersBitcoin
 
 # Authors
 authors:

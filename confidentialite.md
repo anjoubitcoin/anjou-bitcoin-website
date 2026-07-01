@@ -5,7 +5,7 @@ description: "Politique de confidentialité"
 image: "assets/images/logo.png"
 ---
 
-Dernière mise à jour : 4 avril 2025
+Dernière mise à jour : 30 juin 2026
 
 L'association Anjou Bitcoin attache une grande importance à la protection de vos données personnelles. Cette politique de confidentialité décrit comment nous collectons, utilisons et protégeons vos informations lorsque vous utilisez notre site web.
 
@@ -25,13 +25,18 @@ Nous mettons en place des mesures de sécurité appropriées pour protéger nos 
 
 Nous ne vendons, n'échangeons ni ne louons vos données personnelles à des tiers.
 
-**Cookies**
+**Cookies et contenus tiers**
 
-Anjou Bitcoin n'utilise pas de cookie et ne trace pas les activités de ses utilisateurs. 
+Le site anjoubitcoin.fr ne dépose aucun cookie qui lui soit propre et n'utilise aucun outil de mesure d'audience.
 
-Des cookies tiers peuvent être utiliser pour améliorer l'expérience utilisateur, comme c'est le cas avec : 
-- Trading view : pour afficher le cours du Bitcoin
-- Formspee : pour proposer un formulaire de contact
+Certaines pages intègrent toutefois des **contenus tiers**, susceptibles de déposer des cookies et/ou de recevoir votre adresse IP :
+- **TradingView** — affichage du cours du Bitcoin ;
+- **Gravatar (Automattic)** — affichage des avatars des auteurs ;
+- **Google Fonts** — polices de caractères ;
+- **Formspree** — traitement du formulaire de contact ;
+- **Brevo** — gestion de la mailing list (inscription volontaire, voir ci-dessous).
+
+Un bandeau d'information vous en avertit lors de votre première visite. Vous pouvez à tout moment configurer votre navigateur pour bloquer ou supprimer ces cookies.
 
 **Vos droits**
 

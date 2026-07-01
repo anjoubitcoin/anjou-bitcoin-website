@@ -19,8 +19,8 @@ L'association Anjou Bitcoin ainsi que ses membres ne proposent pas de conseils e
 
 **Hébergeur du site**
 
-- [Github](https://github.com/anjoubitcoin/anjou-bitcoin-website)
-- [Infomaniak](https://www.infomaniak.com/fr)
+- [Netlify, Inc.](https://www.netlify.com/) — hébergement du site
+- [Infomaniak](https://www.infomaniak.com/fr) — nom de domaine
 
 **Propriété intellectuelle**
 
@@ -30,13 +30,9 @@ Tous les contenus présents sur ce site (textes, images, vidéos, etc.) sont la 
 
 Anjou Bitcoin ne collecte aucune donnée personnelle. 
 
-**Cookies**
+**Cookies et contenus tiers**
 
-Anjou Bitcoin n'utilise pas de cookie et ne trace pas les activités de ses utilisateurs. 
-
-Des cookies tiers peuvent être utiliser pour améliorer l'expérience utilisateur, comme c'est le cas avec : 
-- Trading view : pour afficher le cours du Bitcoin
-- Formspee : pour proposer un formulaire de contact
+Le site ne dépose aucun cookie qui lui soit propre. Certaines pages intègrent des contenus tiers (TradingView, Gravatar, Google Fonts, Formspree, Brevo) susceptibles de déposer des cookies. Pour le détail, consultez notre [politique de confidentialité](../confidentialite).
 
 **Liens externes**
 
